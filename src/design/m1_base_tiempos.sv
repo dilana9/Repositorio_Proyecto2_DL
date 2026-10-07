@@ -1,4 +1,5 @@
 // Bases de tiempo mediante habilitaciones; no genera relojes internos.
+`timescale 1ns/1ps
 module m1_base_tiempos #(
     parameter integer CICLOS_TECLADO = 27000,
     parameter integer CICLOS_DISPLAY = 27000
